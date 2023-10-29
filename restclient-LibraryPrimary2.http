@@ -1,0 +1,29 @@
+https://jsonplaceholder.typicode.com/todos/
+
+##LISTAR POST
+GET https://jsonplaceholder.typicode.com/todos/
+
+##MIRAR UN POST
+GET https://jsonplaceholder.typicode.com/todos/1
+
+##Cear POST
+
+POST https://jsonplaceholder.typicode.com/todos/
+Content-Type: application/json
+
+{
+    "title": "Producto1",
+    "body": "body1"
+}
+
+##ELIMINAR POST
+DELETE https://jsonplaceholder.typicode.com/todos/2
+
+##ACTUALIZAR POST
+PUT https://jsonplaceholder.typicode.com/todos/3
+Content-Type: application/json
+
+{
+    "title": "este es la publicación numero 1",
+    "body": "actulizado"
+}
